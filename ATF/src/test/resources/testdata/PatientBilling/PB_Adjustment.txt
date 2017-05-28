@@ -1,0 +1,9 @@
+{
+		"InvoiceId": "999999",
+		"LineItemId": "111111",
+		"ClinicId": "7025",
+		"Amount": "50",
+		"AdjustmentType": "Payment",
+		"AdjustmentMethod": "CreditCard",
+		"CreatedDate": "01/01/2017 01:01:17"
+}

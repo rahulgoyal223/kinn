@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ATF AM Suite" verbose="10">
+<test name="AM_BM2_Claims" preserve-order="true" parallel="false">
+  <groups>
+        <run>
+           <include name="AM_BM2_Claims" />
+        </run>
+    </groups>
+   <packages>
+   <package name="Scripts.Claims.*" />
+   </packages>
+</test>
+</suite>

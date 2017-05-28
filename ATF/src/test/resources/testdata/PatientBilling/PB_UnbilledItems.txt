@@ -1,0 +1,87 @@
+{
+			"Patient":{
+				"FirstName":"Chabli",
+				"LastName":"Boler",
+				"Email":"chabli.boler@kinner.com",
+				"Phone":"555-555-5555",
+				"RefPatientKey":"120054",
+				"Address":{
+					"Street":"1234 Sesame Street",
+					"City":"Gulfport",
+					"State":"MS",
+					"ZipCode":"39501"
+				},
+				"GuarantorInfo":{
+					"FirstName":"Carl",
+					"LastName":"Higgins",
+					"Email":"Carl.Higgins@kinner.com",
+					"Phone":"555-555-5555",
+					"RefPatientKey":"120054",
+					"Address":{
+						"Street":"3333 Sky Street",
+						"City":"Gulfport",
+						"State":"MS",
+						"ZipCode":"39501"
+					}
+				},
+				"Clinic":{
+					"Name":"B Bo Home Health",
+					"RefClinicBranchKey":"6016",
+					"RefClinicKey":"7025",
+					"BranchName":"Branch 5",
+					"Phone":"555-555-5555",
+					"InvoiceNumberOffset":"33",
+					"Address":{
+						"Street":"888 Health  Street",
+						"City":"Gulfport",
+						"State":"MS",
+						"ZipCode":"39501"
+					}
+				}
+				
+			},
+			
+			"LineItems":[
+				{
+					"RefLineItemkey":"85995858",
+					"ServiceDate":"10/1/2016",
+					"Description":"Some Stuff",
+					"Rate":"10.00",
+					"Units":"3",
+					"InsuranceName":"SelfPay",
+					"InsPayment":"10.00",
+					"Charge":"30.00",
+					"Due":"20.00",
+					"RemittanceAdjustmentKey":"388292",
+					"ClaimNumber":"889"
+				},
+				{
+					"RefLineItemkey":"85934858",
+					"ServiceDate":"10/3/2016",
+					"Description":"Some Other Stuff",
+					"Rate":"200.00",
+					"Units":"1",
+					"InsuranceName":"SelfPay",
+					"InsPayment":"0.00",
+					"Charge":"200.00",
+					"Due":"200.00",
+					"RemittanceAdjustmentKey":"388292",
+					"ClaimNumber":"889"
+				},
+				{
+					"RefLineItemkey":"85989658",
+					"ServiceDate":"10/10/2016",
+					"Description":"More Some Stuff",
+					"Rate":"10.00",
+					"Units":"3",
+					"InsuranceName":"SelfPay",
+					"InsPayment":"10.00",
+					"Charge":"30.00",
+					"Due":"20.00",
+					"RemittanceAdjustmentKey":"388292",
+					"ClaimNumber":"889"
+				}
+			],
+			
+			"APPID":"Postman"
+		}

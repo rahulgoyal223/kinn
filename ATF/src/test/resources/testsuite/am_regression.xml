@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ATF AM Suite" verbose="10">
+<listeners>
+	<listener class-name="components.SuiteReport" />
+</listeners>
+<test name="AM_Regression" preserve-order="true" parallel="false">
+  <groups>
+        <run>
+           <include name="AM_Regression" />
+        </run>
+    </groups>
+   <packages>
+   <package name="Scripts.*"/>
+   </packages>
+</test>
+</suite>

@@ -1,0 +1,32 @@
+#######################################################################
+## copy this file to config.local.properties and override the        ##
+## configurations according to your needs                            ##
+#######################################################################
+//appUrl=http://10.3.11.26:8080/login.cfm
+appUrl=https://develop.kinnser.net
+sourcePath=C:\\ATF\\ATF\\src\\
+reportsPath=C:\\ATFReports\\
+screenShotsPath=C:\\ATFReports\\ScreenShots\\
+
+# Database connection info
+dbname=Develop
+
+# Default Browser Credentials
+browserType=chrome
+    
+# AM Default Browser and Application Credentials
+appUserName=uber.user.bill2
+appPassword=mma4uber
+    
+# Default KH Application Credentials
+appUserNameKH=uber.user.hm
+appPasswordKH=mma4uber
+
+# Default Call Track Application Credentials
+appUserNameCalltrack=KQA.Auto
+appPasswordCalltrack=Aut0m@teIt
+    
+# Default reports file name configuration
+testCycle=REG
+testEnvironment=Develop
+
